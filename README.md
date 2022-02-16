@@ -8,9 +8,9 @@ UGA CSCI 8960
 ### Different Privacy Levels
 
 ```bash
-Target Epsilon: 50 | Delta: 1e-5 | Test Set Loss: 1.743414 | Test Accuracy: 60.087316 | Clipping Threshold: 1.2 | Step Size: 1e-3
+Target Epsilon: 50 | Delta: 1e-5 | Clipping Threshold: 1.2 | Step Size: 1e-3 | Test Set Loss: 1.743414 | Test Accuracy: 60.087316 |
 ```
 
 ```bash
-Target Epsilon: 10 | Delta: 1e-5 | Test Set Loss: 1.775980 | Test Accuracy: 55.926585 | Clipping Threshold: 1.2 | Step Size: 1e-3
+Target Epsilon: 10 | Delta: 1e-5 | Clipping Threshold: 1.2 | Step Size: 1e-3 | Test Set Loss: 1.775980 | Test Accuracy: 55.926585 | 
 ```
