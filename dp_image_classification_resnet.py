@@ -44,7 +44,7 @@ STEP_SIZE = 1e-3
 
 # Also need to specify number of epochs and batch size
 EPOCHS = 20
-BATCH_SIZE = 512
+BATCH_SIZE = 200
 MAX_PHYSICAL_BATCH_SIZE = 128
 
 """And the following privacy-specific hyper-parameters:
@@ -54,7 +54,7 @@ MAX_PHYSICAL_BATCH_SIZE = 128
 """
 
 CLIPPING_THRESHOLD = 1.2
-EPSILON = 10
+EPSILON = 5
 DELTA = 1e-5
 
 """## Loading the Data
@@ -112,7 +112,7 @@ Some layers are not compatible with Opacus due to privacy implications. For exam
 """
 
 # if opacus is not installed, it can be installed by specifying a command line statement: 
-!pip3 install opacus
+#!pip3 install opacus
 
 from opacus.validators import ModuleValidator
 
