@@ -1,5 +1,6 @@
 # differentially_private_image_classification
-Training a private ResNet to classify images from the CIFAR-10 dataset using PyTorch's Opacus.
+Training a private ML model to classify images from the CIFAR-10 dataset.
+
 **UGA CSCI 8960**
 
 
