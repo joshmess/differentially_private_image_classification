@@ -286,7 +286,9 @@ Test the ResNet on Test Data
 
 top1_acc = test(model, test_loader, device)
 
-"""## References
+"""
+References
+
 *   Yu, D., Zhang, H., Chen, W., Yin, J., & Liu, T.-Y. (2021). How Does Data Augmentation Affect Privacy in Machine Learning? arXiv [cs.LG]. Opgehaal van http://arxiv.org/abs/2007.10567
 *   He, K., Zhang, X., Ren, S., & Sun, J. (2015). Deep Residual Learning for Image Recognition. arXiv [cs.CV]. Opgehaal van http://arxiv.org/abs/1512.03385
 
